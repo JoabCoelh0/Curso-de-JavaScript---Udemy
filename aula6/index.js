@@ -1,0 +1,10 @@
+//NÃO PODEMOS CRIAR VARIAVEIS COM PALAVRAS RESERVADAS
+// VARIAVEIS PRECISAM TER NOMES SIGNIFICATIVOS
+//NÃO PODE COMEÇAR O NOME DE UM VARIAVEL COM NÚMERO
+// NOME DE VARIAVEL NÃO PODER CONTER ESPAÇOS
+//UTILIZAMOS camelCase
+//CASE-SENSITIVE
+let nomeClinte = 'joab'
+let nomeCompleto = 'José Joab de castro coelho' 
+
+console.log(nomeCompleto ,nomeClinte)
