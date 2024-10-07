@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Modelo</title>
+</head>
+
+<body>
+    <section class="container">
+
+        <div id="dados">
+            
+            <div class="inf">
+                <h3>IMC</h3>
+                <ul>
+                   <li> Abaixo de 18,5:</li>
+                   <li> Entre 18,5 e 24,9:</li>
+                   <li> Entre 25 e 29,9 :</li>
+                   <li> Entre 30 e 34,9:</li>
+                   <li> Entre 35 e 39,9</li>
+                   <li> Mais do que 40:</li>
+                </ul>
+            </div> 
+            
+            <div class="inf">
+                <h3>Resultado</h3>
+                <ul>
+                   <li> A baixo do peso</li>
+                   <li> Peso Normal</li>
+                   <li> Sobrepeso</li>
+                   <li> Obesidade Grau 1</li>
+                   <li> Obesidade Grau 2</li>
+                   <li> Obesidade Grau 3</li>
+                </ul>
+            </div>
+            
+                
+            
+        </div>
+        
+        <h1>Calculadora IMC</h1>
+        <form action="">
+
+            <label for="Peso">Peso</label>
+            <input type="number" id="Peso" required>
+
+            <label for="Altura">Altura</label>
+            <input type="number" id="Altura" required>
+
+            <button onclick="calcular()" type="button">Calcular</button>
+        </form>
+
+        <div id="saida">
+
+        </div>
+    </section>
+
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
